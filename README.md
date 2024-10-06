@@ -2,6 +2,8 @@
 
 This project is an implementation of a reinforcement learning (RL) and neural network (NN) based game where two agents—a cat (hunter) and a mouse (prey)—interact on a grid-based map. The objective is to train the agents to pursue (cat) or escape (mouse) while navigating through obstacles. The project is structured into various modules, with clear separation between neural network training and reinforcement learning implementation.
 
+![alt text](image.png)
+
 ## Context
 
 The game map consists of obstacles (black cells) and free spaces (white cells). The cat, represented by a red marker, aims to catch the mouse, represented by a green marker. Both agents must navigate the environment and avoid obstacles to achieve their objectives. The agents use 5 different possible actions to move:
